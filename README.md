@@ -1,1 +1,1 @@
-# my tweeter work in progress... :P
+# my twitter work in progress... :P
