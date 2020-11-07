@@ -30,11 +30,13 @@
 .post__headerText > h3 {
   font-size: 15px;
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 .post__badge {
   font-size: 14px !important;
   color: var(--twitter-color);
+  margin-left: 5px;
 }
 
 .post__headerSpecial {

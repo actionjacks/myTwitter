@@ -19,18 +19,16 @@ function Post({ displayName, username, verified, text, image, avatar }) {
             <h3>
               {displayName}
               <span>
-                <VerifiedUserIcon className="post__badge" />
+                {verified && <VerifiedUserIcon className="post__badge" />}
+                {username}
               </span>
             </h3>
           </div>
           <div className="post__headerDescription">
-            <p>Lorem ipsum dolor sit amet consectetur adipi</p>
+            <p>{text}</p>
           </div>
         </div>
-        <img
-          src="https://static.messynessychic.com/wp-content/uploads/2017/05/fanny12.jpg"
-          alt=""
-        />
+        <img src={image} alt="" />
         <div className="post__footer">
           <ChatBubbleOutlineIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
