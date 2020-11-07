@@ -10,7 +10,8 @@ function TweetBox() {
           <Avatar src="https://cdn-lubimyczytac.pl/upload/authors/57588/495160-352x500.jpg" />
           <input placeholder="you want to tweet?" />
         </div>
-        <Button>Tweet</Button>
+        <input className="tweetBox__inputImage" placeholder="enter image url" />
+        <Button className="tweetBox__tweetButton">Tweet</Button>
       </form>
     </div>
   );
